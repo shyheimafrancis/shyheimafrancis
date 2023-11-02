@@ -5,8 +5,8 @@ www.linkedin.com/in/shyheim-francis-a2077a156">Network Support Engineer</a>, </h
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
   - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
+- <b>JNCIS-Data Center</b>
+  - [Image Analysis Middleware](https://github.com/shyheimafrancis/JNCIA) <b>
 
 
 <h2>📺 Popular YouTube Videos</h2>
