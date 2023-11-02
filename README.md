@@ -5,7 +5,7 @@ www.linkedin.com/in/shyheim-francis-a2077a156">Network Support Engineer</a>, </h
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
   - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>-Data Center Labs</b>
+- <b>Data Center Labs</b>
   - [JNCIA Data Center](https://github.com/shyheimafrancis/JNCIA-DC) 
 
 
