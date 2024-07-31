@@ -21,7 +21,7 @@ I'm a passionate Junior Network Engineer eager to dive deeper into the world of 
 * Automation Certification (in progress)
 
 **Projects**
-* My personal Blog on my certification 
+* [My personal Blog on my certification](https://shyheimafrancis.github.io/shyheimafrancis/)
 
 **Interests**
 * Network automation
