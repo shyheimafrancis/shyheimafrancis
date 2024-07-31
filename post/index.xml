@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on IT Infrastructure Engineer Labs</title><link>https://demo.stack.jimmycai.com/post/</link><description>Recent content in Posts on IT Infrastructure Engineer Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 21:47:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Automation and DevOps, Associate (JNCIA-DevOps)</title><link>https://demo.stack.jimmycai.com/p/jncia-devops/</link><pubDate>Sun, 30 Jun 2024 21:47:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/jncia-devops/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/jncia-devops/cover.jpg" alt="Featured image of post Automation and DevOps, Associate (JNCIA-DevOps)" />&lt;h1 id="juniper-jncia-devops-my-first-certification-adventure">Juniper JNCIA-DevOps: My First Certification Adventure!
+&lt;/h1>&lt;p>Alright, folks, get ready for a deep dive into the world of Juniper Network certifications! This is gonna be my first rodeo, and I&amp;rsquo;m stoked to share the journey with you. There are two BIG reasons Juniper certs are gonna be a regular feature on this blog: price and study materials. Let’s break those down after a quick overview of the certifications themselves. You can find the official lowdown on the JNCIA-DevOps cert here: &lt;a class="link" href="https://www.juniper.net/us/en/training/certification/tracks/devops/jncia-devops.html" target="_blank" rel="noopener"
+>JNCIA-DevOps Certification&lt;/a>&lt;/p>
+&lt;h2 id="price-you-wont-believe-your-eyes">Price: You Won’t Believe Your Eyes!
+&lt;/h2>&lt;p>Juniper is killing it with their free training and practice tests for ALL entry-level exams, plus a handful of their specialist and professional level ones too! Check out their Open Learning platform to get started: &lt;a class="link" href="https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=11478" target="_blank" rel="noopener"
+>Get Started with Free Juniper Training&lt;/a>. Once you’ve soaked up all that knowledge, you can take their voucher assessment test. Pass with a 70% or higher, and BAM! You get a discount code for the actual exam on Pearson Vue, bringing the price down to a whopping $50! (At least for us folks in the US. Prices might vary depending on where you&amp;rsquo;re at.)&lt;/p>
+&lt;h2 id="study-materials-a-goldmine">Study Materials: A Goldmine
+&lt;/h2>&lt;p>The free training we just talked about? Yeah, it’s amazing for study materials too. But the real kicker? LABS! &lt;a class="link" href="https://jlabs.juniper.net/vlabs/" target="_blank" rel="noopener"
+>Juniper vLabs&lt;/a> has recreated a bunch of the training labs, so you can follow along step-by-step. For the labs that aren&amp;rsquo;t there, you can use network emulation software like GNS3 or EVEN-NG. We’ll save that deep dive for a cert that really needs it though. This should be more than enough to get you through the exam. I’ll include any other free resources I find when we break down the exam objectives.&lt;/p>
+&lt;p>So, there you have it! Juniper certifications are looking pretty sweet so far. Stay tuned for my deep dive into the JNCIA-DevOps exam objectives, where we’ll uncover even more awesome resources. Let’s crush this cert together!&lt;/p>
+&lt;h2 id="exam-objectives">Exam Objectives
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Objectives&lt;/th>
+&lt;th style="text-align:center">Materials used&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Junos Automation Stack and DevOps Concepts&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Modules 1-3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">NETCONF/XML API&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Module 4-5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Data Serialization&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Module 9&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Python/PyEZ&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Module 6-8&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Rest API&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Module 10&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>So,&lt;/p>
+&lt;p>I’ve been digging deeper into the JNCIA-DevOps course, and there are a couple of modules that are total curveballs. They don’t directly link to the exam objectives, but trust me, they’re gold if you plan to use this stuff in the real world.&lt;/p>
+&lt;p>First up, we’ve got a crash course in Junos and networking. If you’re planning to automate Junos devices, you kinda need to know how they work, right? It’s like trying to auto-pilot a plane without knowing how to fly it – not gonna end well.&lt;/p>
+&lt;p>And then there’s Ansible. Oh, Ansible. This little automation tool has basically won the configuration management crown. It&amp;rsquo;s a fascinating story, and I’m itching to write a whole post about the Ansible takeover. But for now, let’s just say that if you’re automating anything in Linux or networking, chances are you’ll bump into Ansible at some point.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Objectives&lt;/th>
+&lt;th style="text-align:center">Materials used&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Introduction to Junos&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Modules 11&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Introduction to Ansible&lt;/td>
+&lt;td style="text-align:center">Open Learning - JNCIA-DevOps Modules 12&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Welcome</title><link>https://demo.stack.jimmycai.com/p/welcome/</link><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/welcome/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/welcome/cover.jpg" alt="Featured image of post Welcome" />&lt;p>Hello Junor IT Infrastructure Engineer! This site&amp;rsquo;s main purpose is to motivate me. I have been really struggling since the end of COVID lockdowns. It has been a long and strange journey. I welcomed my first child, a beautiful and very lively girl. She is wonderful but being a first-time parent is difficult and with all the musings I have lost sight of where I wanted my progression to go. If you are around my age, you probably have a similar story about how you fell in love with technology, so I will not bore you with mine.&lt;/p>
+&lt;p>Now we have all the pleasantries out of the way we can talk about what I want to do here. Simple document my career path forward. Certifications, Home labs and even some leadership/soft skills because the days of the IT staff = basement dwelling trolls are over. Quite frankly this stereo type is overplayed. I am a Junor Network Engineer by trade, but this blog will not be strictly about computer networking. The plan right now is to be ready to take a certification Exam at least every 1.5 yours or so for the next 6 years and use this blog to document it. The primary areas I am going to focus on are Networking, client/server systems and Automation. Now to throw a Rench into the whole ordeal these are going to have to be relatively inexpensive to study for and take because kids are expensive. Also, either closely related to my current job or one I am trying to apply for. I reserve all right to change the criteria whenever I want :laughing: thanks for making this journey with me and see you soon.&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Image gallery</title><link>https://demo.stack.jimmycai.com/p/image-gallery/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/image-gallery/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" />&lt;p>Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class="link" href="https://photoswipe.com/" target="_blank" rel="noopener"
+>PhotoSwipe&lt;/a> and its syntax was inspired by &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
+>Typlog&lt;/a>.&lt;/p>
+&lt;p>To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong>External images are not supported.&lt;/strong>&lt;/p>
+&lt;h2 id="syntax">Syntax
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Image 1&lt;/span>](&lt;span class="na">1.jpg&lt;/span>) ![&lt;span class="nt">Image 2&lt;/span>](&lt;span class="na">2.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="result">Result
+&lt;/h2>&lt;p>&lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/1.jpg"
+width="2000"
+height="1400"
+srcset="https://demo.stack.jimmycai.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://demo.stack.jimmycai.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="342px"
+> &lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/2.jpg"
+width="1500"
+height="2250"
+srcset="https://demo.stack.jimmycai.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://demo.stack.jimmycai.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="66"
+data-flex-basis="160px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@mymind" target="_blank" rel="noopener"
+>mymind&lt;/a> and &lt;a class="link" href="https://unsplash.com/@lukechesser" target="_blank" rel="noopener"
+>Luke Chesser&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Shortcodes</title><link>https://demo.stack.jimmycai.com/p/shortcodes/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/shortcodes/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" />&lt;p>For more details, check out the &lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes" target="_blank" rel="noopener"
+>documentation&lt;/a>.&lt;/p>
+&lt;h2 id="bilibili-video">Bilibili video
+&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="tencent-video">Tencent video
+&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="youtube-video">YouTube video
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0qwALOOvUik"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="generic-video-file">Generic video file
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;video
+controls
+src="https://www.w3schools.com/tags/movie.mp4"
+>
+&lt;p>
+Your browser doesn't support HTML5 video. Here is a
+&lt;a href="https://www.w3schools.com/tags/movie.mp4">link to the video&lt;/a> instead.
+&lt;/p>
+&lt;/video>
+&lt;/div>
+&lt;h2 id="gist">Gist
+&lt;/h2>&lt;script src="https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js">&lt;/script>
+&lt;h2 id="gitlab">GitLab
+&lt;/h2>&lt;script
+type="application/javascript"
+src="https://gitlab.com/-/snippets/2589724.js"
+>&lt;/script>
+&lt;h2 id="quote">Quote
+&lt;/h2>&lt;blockquote>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>A famous person, &lt;/span>&lt;a href="https://en.wikipedia.org/wiki/Book">&lt;cite>The book they wrote&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@codioful" target="_blank" rel="noopener"
+>Codioful&lt;/a> on &lt;a class="link" href="https://unsplash.com/photos/WDSN62Qdxuk" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Math Typesetting</title><link>https://demo.stack.jimmycai.com/p/math-typesetting/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/math-typesetting/</guid><description>&lt;p>Stack has built-in support for math typesetting using &lt;a class="link" href="https://katex.org/" target="_blank" rel="noopener"
+>KaTeX&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>It&amp;rsquo;s not enabled by default side-wide,&lt;/strong> but you can enable it for individual posts by adding &lt;code>math: true&lt;/code> to the front matter. Or you can enable it side-wide by adding &lt;code>math = true&lt;/code> to the &lt;code>params.article&lt;/code> section in &lt;code>config.toml&lt;/code>.&lt;/p>
+&lt;h2 id="inline-math">Inline math
+&lt;/h2>&lt;p>This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="block-math">Block math
+&lt;/h2>&lt;p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
